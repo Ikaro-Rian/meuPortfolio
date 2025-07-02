@@ -55,7 +55,7 @@ h1,h2, h3{
 }
 .linkprojeto{
     color: white;
-    transition: color 0.2 ease;
+    transition: color 0.2s ease;
     text-decoration: none;
 }
 h3{
