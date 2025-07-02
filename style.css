@@ -1,0 +1,101 @@
+/*estilo geral do corpo da página*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+header {
+  background-color: #0d47a1;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+display: inline-block;
+padding: 15px;
+} 
+
+nav ul li a{
+      color: rgb(190, 217, 247);
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-weight: 600;
+        transition: color 0.2s ease;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+/*estilo do conteúdo principal*/
+main{
+    margin: 30px auto;
+    background-color: #1e1e1e;
+    padding: 25px 30px;
+    border-radius: 8px;
+    max-width: 800px;
+} 
+/*cores dos titulos*/
+h1,h2, h3{
+    color: rgb(143, 196, 235);
+}
+
+.linkprojeto:hover{
+    text-decoration: none;
+    color: rgb(19, 197, 176);
+}
+.linkprojeto{
+    color: white;
+    transition: color 0.2 ease;
+    text-decoration: none;
+}
+h3{
+    padding-top: 20px;
+}
+/*estilo do formulário*/
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+label {
+  font-weight: 600;
+}
+
+input, textarea {
+  padding: 12px 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #333;
+  color: #eee;
+  resize: vertical;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.7);
+} 
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #0d47a1;
+  border: none;
+  border-radius: 6px;
+  color: #e0e0e0;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
